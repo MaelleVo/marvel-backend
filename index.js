@@ -48,7 +48,7 @@ app.use(characterRoute);
 // FETCH COMICS/CHARACTER:ID
 app.use(characterInComicsRoute);
 
-// USER SIGNUP
+// USER(S) SIGNUP & LOGIN
 app.use(userRoute);
 
 // ALL ROUTES
