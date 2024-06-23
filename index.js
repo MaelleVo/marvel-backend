@@ -52,8 +52,8 @@ app.use(characterInComicsRoute);
 app.use(userRoute);
 
 // ALL ROUTES
-app.all("*", function (req, res) {
-  res.status(404).json({ message: "Page not found" });
+app.all("*", (req, res) => {
+  res.status(404).json({ message: "Page not found - 404" });
 });
 
 // SERVER LISTEN
